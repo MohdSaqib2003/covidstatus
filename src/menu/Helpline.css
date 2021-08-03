@@ -1,0 +1,23 @@
+.helpline_head{
+    color: black;
+    background-color: rgb(143, 152, 161);
+    background-color: rgb(212,227,243);
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    font-size:31px;
+}
+.helpline{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    margin-top: 10px;
+    padding: 10px;
+    /* height:55px; */
+    font-weight:bolder;
+    color:rgb(57, 58, 56);
+    background-color: rgb(152, 221, 152);
+}

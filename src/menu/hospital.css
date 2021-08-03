@@ -1,0 +1,28 @@
+.hospital_head{
+    color: black;
+    background-color: rgb(143, 152, 161);
+    background-color: rgb(212,227,243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:31px;
+}
+
+.hospital_table{
+    width:100%;
+    background-color: chartreuse;
+}
+.hospital_table tr{
+    border: 1px solid black;
+}
+.hospital_table tr td{
+    padding: 11px;
+    font-size: 15px;
+    font-weight:500;
+    background-color: #eeeded;
+    z-index:-5;
+}
+.hospital_table tr:nth-child(even){
+    background-color: #dcdcdc;
+}
